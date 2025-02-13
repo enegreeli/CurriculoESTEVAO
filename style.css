@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+    padding: 30px;
+}
+
+.container {
+    width: 85%;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 20px;
+}
+
+.info-pessoal {
+    display: flex;
+    align-items: center;
+}
+
+.foto-container {
+    margin-right: 30px;
+}
+
+.foto-perfil {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid #5d8d95;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.info-texto h1 {
+    font-size: 2.8em;
+    font-weight: 700;
+    color: #333;
+}
+
+.info-texto p {
+    font-size: 1.1em;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.info-texto p a {
+    color: #5d8d95;
+    text-decoration: none;
+}
+
+.info-texto p a:hover {
+    color: #3a6668;
+}
+
+section h2 {
+    font-size: 1.8em;
+    color: #444;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #5d8d95;
+    padding-bottom: 8px;
+}
+
+.experiencia-item, .educacao-item {
+    margin-bottom: 25px;
+}
+
+.experiencia-item h3, .educacao-item h3 {
+    font-size: 1.4em;
+    color: #333;
+    font-weight: 600;
+}
+
+.experiencia-item p, .educacao-item p {
+    font-size: 1em;
+    color: #777;
+}
+
+.experiencia-item ul, .habilidades ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.experiencia-item ul li, .habilidades li {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.habilidades li {
+    position: relative;
+    transition: color 0.3s, padding-left 0.3s;
+}
+
+.habilidades li:hover {
+    color: #5d8d95;
+    padding-left: 10px;
+}
+
+.habilidades ul {
+    padding-left: 20px;
+}
+
+a {
+    color: #5d8d95;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #3a6668;
+}
